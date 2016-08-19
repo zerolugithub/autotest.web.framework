@@ -3,6 +3,11 @@
 - 支持多种数据源
 - 支持操作日志生成GIF动态图片
 - 自带Windows版本的driver驱动
+
 从附件中下载到示例工程后，可以直接运行看到效果。
+
+环境：
+JDK1.7，Maven
+
 更多详细内容请访问下面的博客：
 http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/
