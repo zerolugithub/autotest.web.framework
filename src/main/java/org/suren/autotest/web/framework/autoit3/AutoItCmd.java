@@ -15,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 使用autoid来实现文件上传
  * @author suren
  * @date 2016年7月19日 上午8:13:28
  */
@@ -47,11 +48,21 @@ public class AutoItCmd
 		}
 	}
 	
+	/**
+	 * 执行文件选择
+	 * @param title
+	 * @param file
+	 */
 	public static void execFileChoose(String title, File file)
 	{
 		execFileChoose(title, file.getAbsolutePath());
 	}
 	
+	/**
+	 * 执行文件选择
+	 * @param title
+	 * @param filePath
+	 */
 	public static void execFileChoose(String title, String filePath)
 	{
 		String au3ExePath = getAu3ExePath();
@@ -79,6 +90,7 @@ public class AutoItCmd
 	}
 
 	/**
+	 * 获取autoit的安装目录
 	 * @return
 	 */
 	private static String getAu3ExePath()
