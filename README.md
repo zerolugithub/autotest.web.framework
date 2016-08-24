@@ -4,6 +4,10 @@
 - 支持操作日志生成GIF动态图片
 - 自带Windows版本的driver驱动
 
+本项目在码云和Github上都有托管，下面是各自的地址：
+Github  https://github.com/LinuxSuRen/autotest.web.framework
+码云    https://git.oschina.net/surenpi/autotest.web.framework
+
 从附件中下载到示例工程后，可以直接运行看到效果。
 示例工程的源码如下：
 https://git.oschina.net/surenpi/autotest.web.framework.demo
